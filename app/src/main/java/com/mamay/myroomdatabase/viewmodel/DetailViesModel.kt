@@ -3,6 +3,7 @@ package com.mamay.myroomdatabase.viewmodel
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.myroomsiswa.view.route.DestinasiDetailSiswa
 import com.mamay.myroomdatabase.repositori.RepositoriSiswa
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow

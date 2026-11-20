@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.example.myroomsiswa.view.uicontroller.SiswaApp
 import com.mamay.myroomdatabase.ui.theme.MyRoomDatabaseTheme
-import com.mamay.myroomdatabase.uicontroller.SiswaApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    SiswaApp() // Mengaktifkan navigation host sebagai konten aplikasi.
+                    SiswaApp(modifier = Modifier) // Mengaktifkan navigation host sebagai konten aplikasi.
                 }
             }
         }
