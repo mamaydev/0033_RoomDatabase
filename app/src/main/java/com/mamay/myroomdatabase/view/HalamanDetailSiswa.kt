@@ -33,10 +33,9 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.myroomsiswa.view.route.DestinasiDetailSiswa
 import com.mamay.myroomdatabase.R
 import com.mamay.myroomdatabase.model.Siswa
-import com.mamay.myroomdatabase.uicontroller.SiswaTopAppBar
+import com.mamay.myroomdatabase.view.route.DestinasiDetailSiswa
 import com.mamay.myroomdatabase.viewmodel.DetailViesModel
 import com.mamay.myroomdatabase.viewmodel.provider.PenyediaViewModel
 import com.mamay.myroomdatabase.viewmodel.toSiswa

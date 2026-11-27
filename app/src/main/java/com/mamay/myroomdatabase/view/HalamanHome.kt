@@ -34,8 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.mamay.myroomdatabase.R
 import com.mamay.myroomdatabase.model.Siswa
-import com.mamay.myroomdatabase.uicontroller.DestinasiHome
-import com.mamay.myroomdatabase.uicontroller.SiswaTopAppBar
+import com.mamay.myroomdatabase.view.route.DestinasiHome
 import com.mamay.myroomdatabase.viewmodel.HomeViewModel
 import com.mamay.myroomdatabase.viewmodel.provider.PenyediaViewModel
 
